@@ -1,0 +1,70 @@
+body, body * {
+  box-sizing:border-box;
+}
+
+.jumbotron {
+  text-align: center;
+}
+ /*a*/
+.wrapp {
+  width :150px;
+  height: 450px;
+  overflow: hidden;
+  margin : 0 7px 0 7px;
+  box-shadow: 2px 2px 7px #eee, -2px -2px 7px #eee;
+  float : left;
+}
+.prvi_Div {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+/*.start_dugme {
+  width: 50%;
+  margin: 0 auto;
+}*/
+
+ .naslovna {
+  width : 150px;
+  height: 450px;
+  background: red;
+  float: left;
+  position: relative;
+
+}
+
+.naslovna img {
+  width: 150px;
+  height : 150px;
+  float:left;
+
+}
+
+.slike_Div {
+  width :450px;
+  height: 1950px;
+  margin-top: -1950px;
+
+}
+
+.ram {
+    width: 150px;
+    height : 150px;
+    backface-visibility: hidden;
+}
+.ram img {
+  max-height: 150px;
+}
+
+.obrni {
+  transition: transform 2s;
+  transform:  perspective(900px) rotateY(720deg);
+}
+
+.ulog, .dobitak{
+  text-align: center;
+}
+
+th, td {
+  text-align: center;
+}
